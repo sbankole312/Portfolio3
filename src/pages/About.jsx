@@ -2,14 +2,14 @@ import { NavLink } from 'react-router-dom';
 import PlaceholderImage from '../assets/placeholder_image.png';
 
 // Replace these variables with your information
-const firstName = 'Replace with your first name';
-const jobTitle = 'Replace with your title';
-const company = 'Replace with your company name';
-const mainDuty = 'Replace with your main duty';
-const jobLocation = 'Replace with your job location';
-const briefJobDescription = 'Replace with a brief description of your job';
-const careerObjective = 'Replace with your career objective';
-const personalLife = 'Replace with a brief description of your personal life';
+const firstName = 'Sarah';
+const jobTitle = 'FullStack Developer and Software QA Engineer';
+const company = 'Google';
+const mainDuty = 'Quality Assurance Analyst';
+const jobLocation = 'NY, New York';
+const briefJobDescription = 'Executing best practices in software test case development and requirement analysis.';
+const careerObjective = 'To obtain an exciting and rewarding position in a dynamic organization where I can utilize my skills and experience to contribute to the growth and success of the company.';
+const personalLife = 'I am passionate about the intersection of Tech, Real Estate and Wellness. This passion has led to hobbies where I get to explore these various interests.';
 
 const About = () => {
   return (

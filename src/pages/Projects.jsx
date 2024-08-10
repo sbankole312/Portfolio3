@@ -8,28 +8,28 @@ import { FaGithub } from "react-icons/fa6";
 // You can also add more properties if you want to display more information about your projects.
 const myProjects = [
   {
-    title: 'Project 1',
-    description: 'Description of project 1',
+    title: 'Weather App',
+    description: 'A fully functioning weather app.',
     repositoryLink: 'Link to the GitHub repository',
   },
   {
-    title: 'Project 2',
-    description: 'Description of project 2',
+    title: 'Capstone Project',
+    description: 'A completely responsive e-commerce site geared towards new and expecting mothers.',
     repositoryLink: 'Link to the GitHub repository',
   },
   {
-    title: 'Project 3',
-    description: 'Description of project 3',
+    title: 'Portfolio',
+    description: 'A compilation of professional documentation and work samples demonstrating my skills and accomplishments.',
     repositoryLink: 'Link to the GitHub repository',
   },
   {
     title: 'Project 4',
-    description: 'Description of project 4',
+    description: 'TBA',
     repositoryLink: 'Link to the GitHub repository',
   },
   {
     title: 'Project 5',
-    description: 'Description of project 5',
+    description: 'TBA',
     repositoryLink: 'Link to the GitHub repository',
   },
 ];
