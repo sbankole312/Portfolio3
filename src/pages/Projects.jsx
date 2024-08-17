@@ -1,5 +1,7 @@
 import { FaGithub } from "react-icons/fa6";
-import capstonepic from "../assets/Capstonepic.png"
+import capstonepic from "../assets/groupMaternity1_pic.jpg"
+import weatherpic from "../assets/nyc_background3.jpg" 
+import portfoliopic from "../assets/portfoliopic.png"
 
 // Replace the projects inside the myProjects array with your own projects. Right now the array has sample data. You can add as many projects as you want. Each project should be an object with the following
 // properties:
@@ -10,7 +12,7 @@ import capstonepic from "../assets/Capstonepic.png"
 const myProjects = [
   {
     title: 'Weather App',
-    imgSrc: "",
+    imgSrc: weatherpic,
     description: 'A fully functioning weather app.',
     repositoryLink: 'Link to the GitHub repository',
   },
@@ -22,9 +24,9 @@ const myProjects = [
   },
   {
     title: 'Portfolio',
-    imgSrc: "",
+    imgSrc: portfoliopic,
     description: 'A compilation of professional documentation and work samples demonstrating my skills and accomplishments.',
-    repositoryLink: 'Link to the GitHub repository',
+    repositoryLink: 'https://github.com/sbankole312/Portfolio3.git',
   },
   {
     title: 'Project 4',
