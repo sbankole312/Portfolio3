@@ -1,4 +1,5 @@
 import { FaGithub } from "react-icons/fa6";
+import capstonepic from "../assets/Capstonepic.png"
 
 // Replace the projects inside the myProjects array with your own projects. Right now the array has sample data. You can add as many projects as you want. Each project should be an object with the following
 // properties:
@@ -9,26 +10,31 @@ import { FaGithub } from "react-icons/fa6";
 const myProjects = [
   {
     title: 'Weather App',
+    imgSrc: "",
     description: 'A fully functioning weather app.',
     repositoryLink: 'Link to the GitHub repository',
   },
   {
     title: 'Capstone Project',
     description: 'A completely responsive e-commerce site geared towards new and expecting mothers.',
-    repositoryLink: 'Link to the GitHub repository',
+    repositoryLink: 'https://github.com/Path2Tech/Path2Tech-Capstone-Project.git',
+    imgSrc: capstonepic 
   },
   {
     title: 'Portfolio',
+    imgSrc: "",
     description: 'A compilation of professional documentation and work samples demonstrating my skills and accomplishments.',
     repositoryLink: 'Link to the GitHub repository',
   },
   {
     title: 'Project 4',
+    imgSrc: "",
     description: 'TBA',
     repositoryLink: 'Link to the GitHub repository',
   },
   {
     title: 'Project 5',
+    imgSrc: "",
     description: 'TBA',
     repositoryLink: 'Link to the GitHub repository',
   },
@@ -39,7 +45,8 @@ const Projects = () => {
       {myProjects.map((project) => (
         <section key={project.title} className="project-item border border-2 rounded-lg">
           <section className="project-image-container">
-            <FaGithub />
+            {/* <FaGithub /> */}
+            {project.imgSrc && < img src= {project.imgSrc} alt= "project image" />}
           </section>
           <h2 className="text-xl font-semibold">{project.title}</h2>
           <p className="text-lg">{project.description}</p>
